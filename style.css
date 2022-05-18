@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+}
+h1{
+    text-align: center;
+    margin-top: 0;
+}
+footer{
+    background-color: blueviolet;
+}
+
+footer ul{
+    text-align: left;
+}
+
+footer h2{
+    text-align: center;
+    margin-top: 0;
+}
+
+section{
+    
+}
+
+section h2{
+    text-align: center;
+    margin-top: 0;
+}
+
+.bg_destaques{
+    background-color: crimson;
+    padding: 20px;
+}
+
+nav{
+    background-color: blueviolet;
+    
+}
+
+nav ul{
+    margin: 0;
+}
+
+.linha{
+
+}
+
+.card{
+    width: 25%;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+
+.card h1{
+    text-align: left;
+}
+
+.card img{
+    width:100% ;
+}
+
+.linha{
+    display:flex;
+    
+}
+
+.bg_nome_pagina{
+    background-image: url("IMG/bg_nome_pagina.jpg");
+    height: 200px;
+}
