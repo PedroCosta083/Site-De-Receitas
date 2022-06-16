@@ -11,24 +11,35 @@
 </head>
 
 <body>
-
-    <header>
+    <header class="">
         <nav class="navbar ">
             <h2>Logo</h2>
-            <div class="linha">
-                <a href="#">Home</a>
-                <a href="massas.html">Massas</a>
-                <a href="sobrem.html">Sobremesas</a>
-                <a href="bolos.html">Bolos</a>
-                <a href="salgados.html">Salgados</a>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             </div>
         </nav>
+        <section class="">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="nav-item" href="#">Home</a></li>
+                <a class="nav-item" href="massas.html">Massas</a></li>
+                <a class="nav-item" href="sobrem.html">Sobremesas</a></li>
+                <a class="nav-item" href="bolos.html">Bolos</a></li>
+                <a class="nav-item" href="salgados.html">Salgados</a></li>
+            </div>
+        </section>
+
     </header>
     <main>
         <section class="bg_nome_pagina">
-            <h1 style="color: white;background-color:black">Site de TESTE</h1>
+
         </section>
-        <section class="bg_destaques">
+        <section class="bg_destaques align-content-center">
             <h2>Destaques</h2>
             <div class="linha">
                 <div class="card" style="width: 18rem;">
